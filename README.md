@@ -1,6 +1,6 @@
 # Play Cocoa!
 
-This project houses both the Cocoa driven [Play](https://github.com/play/play) clients. It consists of two actual application targets: Play Item and Play iOS.
+This project houses both the Cocoa driven [Play](https://github.com/play/play) clients. It consists of two actual application targets: Play Item and Play iOS
 
 ## Application Targets
 

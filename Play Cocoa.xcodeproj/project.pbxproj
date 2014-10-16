@@ -73,7 +73,7 @@
 		E058E277153376E80079B226 /* PLATrack.m in Sources */ = {isa = PBXBuildFile; fileRef = E058E273153376E80079B226 /* PLATrack.m */; };
 		E058E27A153377160079B226 /* PLAController.m in Sources */ = {isa = PBXBuildFile; fileRef = E058E279153377160079B226 /* PLAController.m */; };
 		E058E27B153377160079B226 /* PLAController.m in Sources */ = {isa = PBXBuildFile; fileRef = E058E279153377160079B226 /* PLAController.m */; };
-		E058E284153390A00079B226 /* Pusher.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = E058E22C153334860079B226 /* Pusher.framework */; };
+		E058E284153390A00079B226 /* Pusher.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = E058E22C153334860079B226 /* Pusher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		E05AEBEE1533D97E0094566C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05AEBED1533D97E0094566C /* Foundation.framework */; };
 		E05AEBF01533D9840094566C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05AEBEF1533D9840094566C /* Cocoa.framework */; };
 		E05AEBF21533D98B0094566C /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05AEBF11533D98B0094566C /* AppKit.framework */; };
@@ -130,7 +130,6 @@
 		E0783F7D15331ADF003EA138 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E0783EF51533187D003EA138 /* UIImageView+AFNetworking.m */; };
 		E0C965BE1533279D001D52BF /* PLAItemAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C965AD1533279D001D52BF /* PLAItemAppDelegate.m */; };
 		E0C965BF1533279D001D52BF /* IgnoredAudioProcesses.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0C965AF1533279D001D52BF /* IgnoredAudioProcesses.plist */; };
-		E0C965C01533279D001D52BF /* Play-Item-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0C965B01533279D001D52BF /* Play-Item-Info.plist */; };
 		E0C965C11533279D001D52BF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E0C965B21533279D001D52BF /* Credits.rtf */; };
 		E0C965C21533279D001D52BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0C965B41533279D001D52BF /* InfoPlist.strings */; };
 		E0C965C31533279D001D52BF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0C965B61533279D001D52BF /* MainMenu.xib */; };
@@ -139,7 +138,6 @@
 		E0C965E3153327A6001D52BF /* PLAPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C965CD153327A6001D52BF /* PLAPlayerViewController.m */; };
 		E0C965E5153327A6001D52BF /* PLAPlayerViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0C965CF153327A6001D52BF /* PLAPlayerViewController_iPhone.xib */; };
 		E0C965E6153327A6001D52BF /* PLAIOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C965D1153327A6001D52BF /* PLAIOSAppDelegate.m */; };
-		E0C965E7153327A6001D52BF /* Play-iOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0C965D3153327A6001D52BF /* Play-iOS-Info.plist */; };
 		E0C965E8153327A6001D52BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0C965D5153327A6001D52BF /* InfoPlist.strings */; };
 		E0C965E9153327A6001D52BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C965D7153327A6001D52BF /* main.m */; };
 		E0C965EA153327A6001D52BF /* bottom-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = E0C965D9153327A6001D52BF /* bottom-shadow.png */; };
@@ -974,7 +972,7 @@
 		E09B1E3F14E3FD4C001BD57E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "GitHub, Inc.";
 			};
 			buildConfigurationList = E09B1E4214E3FD4C001BD57E /* Build configuration list for PBXProject "Play Cocoa" */;
@@ -1002,7 +1000,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0C965E5153327A6001D52BF /* PLAPlayerViewController_iPhone.xib in Resources */,
-				E0C965E7153327A6001D52BF /* Play-iOS-Info.plist in Resources */,
 				E0C965E8153327A6001D52BF /* InfoPlist.strings in Resources */,
 				E0C965EA153327A6001D52BF /* bottom-shadow.png in Resources */,
 				E0C965EB153327A6001D52BF /* bottom-shadow@2x.png in Resources */,
@@ -1035,7 +1032,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0C965BF1533279D001D52BF /* IgnoredAudioProcesses.plist in Resources */,
-				E0C965C01533279D001D52BF /* Play-Item-Info.plist in Resources */,
 				E0C965C11533279D001D52BF /* Credits.rtf in Resources */,
 				E0C965C21533279D001D52BF /* InfoPlist.strings in Resources */,
 				E0C965C31533279D001D52BF /* MainMenu.xib in Resources */,
@@ -1193,7 +1189,6 @@
 		E0783EAE1533168C003EA138 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1224,7 +1219,6 @@
 		E0783EAF1533168C003EA138 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1256,8 +1250,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -1271,6 +1272,9 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1282,15 +1286,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
@@ -1300,6 +1314,7 @@
 		E09B1E6714E3FD4C001BD57E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/vendor\"",
@@ -1323,6 +1338,7 @@
 		E09B1E6814E3FD4C001BD57E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/vendor\"",
